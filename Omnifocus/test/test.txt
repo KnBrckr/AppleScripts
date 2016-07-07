@@ -1,0 +1,6 @@
+$team = Alejandro, Harish, Greg, Jim A
+$stuff = something interesting
+Do something @focus ::Test Project #5pm #tomorrow //Note
+Do another thing @focus ::Test Project
+    subtask1 of ${stuff} @${team}
+    subtask2 @${team}
