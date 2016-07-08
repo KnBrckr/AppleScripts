@@ -1,6 +1,8 @@
-$team = Alejandro, Harish, Greg, Jim A
+$team = test1, test2, test 3
 $stuff = something interesting
-Do something @focus ::Test Project #5pm #tomorrow //Note
-Do another thing @focus ::Test Project
-    subtask1 of ${stuff} @${team}
-    subtask2 @${team}
+$project = Test Project
+Do something @focus ::${project} #5pm #tomorrow //Note
+Do another thing @focus ::${project}
+    subtask1 of ${stuff} @${team} ::${project}
+    subtask2 @${team} ::${project}
+Main task ${undef} @test1 ::${project}
